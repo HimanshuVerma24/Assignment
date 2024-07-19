@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  background-image: url(./img/button.jpg);
+  background-size: cover;
+  width: 370px;
+  height: 70px;
+  border-radius: 10px 50px;
+  color: blueviolet;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  box-shadow: 4px 4px 6px rgb(0, 0, 0);
+  text-shadow: 2px 3px 4px gold;
+}
+body{
+  background-size: cover;
+  background-image: url(./img/bg.png);
+}
+
+header{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 3px 5px rgb(255, 0, 0);
+}
+box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.box1{
+  
+  width: 400px;
+  height: 275px;
+  text-align: center;
+  background-image: url(./img/nat.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 5px ridge black;
+  border-radius: 40px;
+}
+.box2{
+  
+  width: 400px;
+  height: 275px;
+  background-size: cover;
+  border-radius: 40px;
+  border: 5px ridge rgb(0, 0, 0);
+  background-position: center;
+  background-image: url(./img/redtree.jpg);
+  background-size: cover;
+}
+
+.container1{
+  margin-top: 100px;
+  margin-left: 140px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 19px;
+  line-height: 40px;
+  text-shadow: 2px 4px 3px rgb(0, 0, 0);
+  font-weight: bolder;
+ position: fixed;
+ left: 15px;
+  }
+
+.container2{
+  margin-top: 100px;
+  margin-right: 140px;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+  line-height: 40px;
+  text-shadow: 2px 4px 3px rgb(255, 255, 255);
+  position: fixed;
+  right: 10px;
+   }
+
+   h1{
+    margin: 20px;
+   }
+
+   .align{
+    display: flex;
+    justify-content: space-around;
+    gap: 675px;
+   }
+
+
